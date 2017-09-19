@@ -12,6 +12,8 @@
 		7499BA5C1F70E3140038DF9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7499BA5A1F70E3140038DF9F /* Main.storyboard */; };
 		7499BA5E1F70E3140038DF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7499BA5D1F70E3140038DF9F /* Assets.xcassets */; };
 		7499BA611F70E3140038DF9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7499BA5F1F70E3140038DF9F /* LaunchScreen.storyboard */; };
+		7499BA6A1F70E3710038DF9F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7499BA691F70E3710038DF9F /* MapKit.framework */; };
+		7499BA6C1F70E7160038DF9F /* ViewPoint2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7499BA6B1F70E7160038DF9F /* ViewPoint2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7499BA5D1F70E3140038DF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7499BA601F70E3140038DF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7499BA621F70E3140038DF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7499BA691F70E3710038DF9F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7499BA6B1F70E7160038DF9F /* ViewPoint2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ViewPoint2.plist; path = "../../MapPinPList-master 3/MapPinPLiist/ViewPoint2.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7499BA6A1F70E3710038DF9F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				7499BA551F70E3140038DF9F /* 03Map_Pin_Plist */,
 				7499BA541F70E3140038DF9F /* Products */,
+				7499BA681F70E3710038DF9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +62,21 @@
 			children = (
 				7499BA561F70E3140038DF9F /* AppDelegate.swift */,
 				7499BA581F70E3140038DF9F /* ViewController.swift */,
+				7499BA6B1F70E7160038DF9F /* ViewPoint2.plist */,
 				7499BA5A1F70E3140038DF9F /* Main.storyboard */,
 				7499BA5D1F70E3140038DF9F /* Assets.xcassets */,
 				7499BA5F1F70E3140038DF9F /* LaunchScreen.storyboard */,
 				7499BA621F70E3140038DF9F /* Info.plist */,
 			);
 			path = 03Map_Pin_Plist;
+			sourceTree = "<group>";
+		};
+		7499BA681F70E3710038DF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7499BA691F70E3710038DF9F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7499BA611F70E3140038DF9F /* LaunchScreen.storyboard in Resources */,
+				7499BA6C1F70E7160038DF9F /* ViewPoint2.plist in Resources */,
 				7499BA5E1F70E3140038DF9F /* Assets.xcassets in Resources */,
 				7499BA5C1F70E3140038DF9F /* Main.storyboard in Resources */,
 			);
