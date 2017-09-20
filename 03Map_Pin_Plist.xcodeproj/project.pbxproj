@@ -14,6 +14,11 @@
 		7499BA611F70E3140038DF9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7499BA5F1F70E3140038DF9F /* LaunchScreen.storyboard */; };
 		7499BA6A1F70E3710038DF9F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7499BA691F70E3710038DF9F /* MapKit.framework */; };
 		7499BA6C1F70E7160038DF9F /* ViewPoint2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7499BA6B1F70E7160038DF9F /* ViewPoint2.plist */; };
+		74AF3ADA1F72273C00D4B55F /* Songsang.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AF3AD71F72273C00D4B55F /* Songsang.png */; };
+		74AF3ADB1F72273C00D4B55F /* citizen_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AF3AD81F72273C00D4B55F /* citizen_logo.png */; };
+		74AF3ADC1F72273C00D4B55F /* DIT_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AF3AD91F72273C00D4B55F /* DIT_logo.png */; };
+		74AF3ADE1F72282900D4B55F /* Busan_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AF3ADD1F72282900D4B55F /* Busan_logo.png */; };
+		74AF3AE01F722B7000D4B55F /* subway_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74AF3ADF1F722B7000D4B55F /* subway_logo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		7499BA621F70E3140038DF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7499BA691F70E3710038DF9F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7499BA6B1F70E7160038DF9F /* ViewPoint2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ViewPoint2.plist; path = "../../MapPinPList-master 3/MapPinPLiist/ViewPoint2.plist"; sourceTree = "<group>"; };
+		74AF3AD71F72273C00D4B55F /* Songsang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Songsang.png; sourceTree = "<group>"; };
+		74AF3AD81F72273C00D4B55F /* citizen_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citizen_logo.png; sourceTree = "<group>"; };
+		74AF3AD91F72273C00D4B55F /* DIT_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DIT_logo.png; sourceTree = "<group>"; };
+		74AF3ADD1F72282900D4B55F /* Busan_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Busan_logo.png; sourceTree = "<group>"; };
+		74AF3ADF1F722B7000D4B55F /* subway_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = subway_logo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,11 @@
 				7499BA5D1F70E3140038DF9F /* Assets.xcassets */,
 				7499BA5F1F70E3140038DF9F /* LaunchScreen.storyboard */,
 				7499BA621F70E3140038DF9F /* Info.plist */,
+				74AF3AD71F72273C00D4B55F /* Songsang.png */,
+				74AF3AD81F72273C00D4B55F /* citizen_logo.png */,
+				74AF3AD91F72273C00D4B55F /* DIT_logo.png */,
+				74AF3ADD1F72282900D4B55F /* Busan_logo.png */,
+				74AF3ADF1F722B7000D4B55F /* subway_logo.jpeg */,
 			);
 			path = 03Map_Pin_Plist;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AF3AE01F722B7000D4B55F /* subway_logo.jpeg in Resources */,
+				74AF3ADA1F72273C00D4B55F /* Songsang.png in Resources */,
 				7499BA611F70E3140038DF9F /* LaunchScreen.storyboard in Resources */,
+				74AF3ADE1F72282900D4B55F /* Busan_logo.png in Resources */,
+				74AF3ADC1F72273C00D4B55F /* DIT_logo.png in Resources */,
 				7499BA6C1F70E7160038DF9F /* ViewPoint2.plist in Resources */,
+				74AF3ADB1F72273C00D4B55F /* citizen_logo.png in Resources */,
 				7499BA5E1F70E3140038DF9F /* Assets.xcassets in Resources */,
 				7499BA5C1F70E3140038DF9F /* Main.storyboard in Resources */,
 			);
@@ -315,6 +335,7 @@
 				7499BA671F70E3140038DF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
